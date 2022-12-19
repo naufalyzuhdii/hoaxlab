@@ -1,0 +1,166 @@
+.profile-page{
+    min-height: 100vh;
+}
+.profile-content{
+    display: flex;
+}
+.profile-left{
+    background-color: #D7DADC;
+    width: 20%;
+    /* height: 100vh; */
+}
+.profile-left-pd{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.profile-left-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image{
+    width: 200px;
+}
+.profile-detail{
+    width: 200px;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+.name{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.member{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+.image{
+    border: 1px black solid;
+}
+.laporan-text{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.upvoters-text{
+    font-size: 14px;
+}
+hr.profile-line-1{
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.profile-left-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.profile-left-2 a{
+    text-decoration: none;
+    color: black;
+}
+.change-info-user{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.my-report{
+    font-size: 16px;
+}
+.keluar{
+    margin-top: 690px;
+}
+hr.profile-line-2{
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.signout-button{
+    margin-left: 15px;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.keluar a{
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.profile-right-content{
+    width: 60%;
+    /* height: 100vh; */
+    margin-bottom: 5%;
+}
+.profile-right-content-wrap{
+    width: 100%;
+    padding-top: 5%;
+    margin-left: 350px;
+}
+.profile-right-title{
+    margin-bottom: 25px;
+}
+.informasi-akun{
+    font-size: 16px;
+    font-weight: bold;
+}
+.account-form{
+    margin-bottom: 15px;
+}
+.account-form input[type=text], select{
+    color: #D7DADC;
+}
+.input-title{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.input-name{
+    display: flex;
+    align-items: center;
+}
+.nama-belakang{
+    margin-left: 20px;
+}
+.account-form input{
+    height: 50px;
+    width: 350px;
+}
+
+.input-phone-number{
+    margin-bottom: 50px;
+}
+.ganti-kata-sandi{
+    font-size: 16px;
+    font-weight: bold;
+}
+.change-password-form{
+    margin-bottom: 15px;
+}
+.change-password-form input{
+    height: 50px;
+    width: 350px;
+}
+.account-save-button{
+    float: right;
+    margin-right: 15%;
+    margin-top: 70px;
+}
+.account-save-button button{
+    padding: 15px 55px;
+    font-size: 18px;
+    border: 1px #30B16A solid;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.batal{
+    background-color: white;
+    color: #30B16A;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.simpan{
+    background-color: #30B16A;
+    color: #F9F9F9;
+}

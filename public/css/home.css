@@ -1,0 +1,95 @@
+/* HOME HEADER */
+
+.head-home{
+    background-color: #30B16A;
+    height: 70vh;
+    width: 100%;
+}
+.head-home-content{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-text{
+    padding-top: 9%;
+    letter-spacing: 1px;
+}
+.head-text{
+    font-weight: bold;
+    font-size: 3.4rem;
+    color: #F9F9F9;
+}
+.head-text span{
+    font-weight: lighter;
+}
+.text-desc{
+    margin-top: 40px;
+    font-size: 18px;
+    color: #F9F9F9;
+}
+.left-text button{
+    margin-top: 40px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 13px;
+    padding: 15px 25px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #30B16A;
+    font-weight: bold;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.1);
+}
+.head-home-content img{
+    margin-top: -40px;
+    margin-right: -50px;
+}
+
+/* HOME ABOUT */
+
+.home-content-about{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-text{
+    padding-top: 9%;
+    color: black;
+    letter-spacing: 1px;
+    float: left;
+}
+.about{
+    width: 40%;
+}
+.about-title{
+    font-size: 2rem;
+    color: #30B16A;
+    font-weight: bold;
+}
+.about-desc{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* HOME CARAKERJA */
+
+.home-content-carakerja{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.carakerja{
+    width: 40%;
+}
+.carakerja-title{
+    font-size: 2rem;
+    color: #30B16A;
+    font-weight: bold;
+}
+.carakerja-desc{
+    margin-top: 40px;
+    font-size: 20px;
+}
